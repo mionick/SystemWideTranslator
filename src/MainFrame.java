@@ -145,8 +145,6 @@ public class MainFrame extends JWindow implements HotkeyListener {
         for (int i = 0; i < acceptedLanguages.length; i++)
             currentLangs[i] = true;
 
-        //setUndecorated(true);
-        //setOpacity(f);
         setBackground(new Color(0, 0, 0, 150));
         setAlwaysOnTop(true);
 
@@ -164,7 +162,6 @@ public class MainFrame extends JWindow implements HotkeyListener {
         contentPane.setBackground(new Color(40, 40, 40, 40));
         contentPane.setOpaque(false);
 
-        //setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosed(WindowEvent e) {
