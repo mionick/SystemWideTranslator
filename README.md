@@ -3,10 +3,10 @@
  A simple Utility used to translate between the languages I am currently learning.
  Just more convenient than using Google translate all the time.
  
- ### Download:
+### Download:
       https://www.dropbox.com/s/4x4ti1gr6e4q6ei/SystemWideTranslator.jar?dl=0
 
- ### Usage: 
+### Usage: 
         copy the text you wish to translate so that it is in the system clip board (Just highlight and press ctrl+c).
         Then press alt+n to get the translation in the currently selected language pairs.
 
@@ -20,7 +20,7 @@
 
         the array acceptedLanguagesFullname[] lists the text that will show up in the menu in the system tray.
 
- ### First Time Setup:
+### First Time Setup:
         The application expects that you will get your own Yandex API key (I can't use mine for all instances of the application)
         And that you will put it in an ASCII encoded file called YKey.txt
 
@@ -28,7 +28,7 @@
 
  Created by Nicholas on 2016-06-04.
 
- #### Copyright Nicholas Mio 2016
+#### Copyright Nicholas Mio 2016
 
      This program is free software: you can redistribute it and/or modify
      it under the terms of the GNU General Public License as published by
