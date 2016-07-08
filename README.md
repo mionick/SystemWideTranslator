@@ -4,27 +4,30 @@
  Just more convenient than using Google translate all the time.
  
 ### Download:
-      https://www.dropbox.com/s/4x4ti1gr6e4q6ei/SystemWideTranslator.jar?dl=0
-
-### Usage: 
-        copy the text you wish to translate so that it is in the system clip board (Just highlight and press ctrl+c).
-        Then press alt+n to get the translation in the currently selected language pairs.
-
-        You can change the base language and the languages to translate to by right clicking the icon in the system tray.
-
-        To make the translation box disappear press alt+m.
-
-        Languages can be easly added by appending them to the two lists in the source code.
-        The array acceptedLanguages[] accepts language codes as described by yandex here:
-        https://tech.yandex.com/translate/doc/dg/concepts/api-overview-docpage/#languages
-
-        the array acceptedLanguagesFullname[] lists the text that will show up in the menu in the system tray.
+   <https://www.dropbox.com/s/4x4ti1gr6e4q6ei/SystemWideTranslator.jar?dl=0>
 
 ### First Time Setup:
-        The application expects that you will get your own Yandex API key (I can't use mine for all instances of the application)
-        And that you will put it in an ASCII encoded file called YKey.txt
+   The application expects that you will get your own Yandex API key (I can't use mine for all instances of the application)
+   And that you will put it in an ASCII encoded file called YKey.txt
+   
+   You can get an api key here:
+   <https://tech.yandex.com/translate/>
 
-        This file must be located in the same folder as the jar file.
+   This file must be located in the same folder as the jar file.
+
+### Usage: 
+  Copy the text you wish to translate so that it is in the system clip board (Just highlight and press ctrl+c).
+  Then press alt+n to get the translation in the currently selected language pairs.
+
+  You can change the base language and the languages to translate to by right clicking the icon in the system tray.
+
+  To make the translation box disappear press alt+m.
+
+  Languages can be easly added by appending them to the two lists in the source code.
+  The array acceptedLanguages[] accepts language codes as described by yandex here:
+  https://tech.yandex.com/translate/doc/dg/concepts/api-overview-docpage/#languages
+
+  the array acceptedLanguagesFullname[] lists the text that will show up in the menu in the system tray.
 
  Created by Nicholas on 2016-06-04.
 
